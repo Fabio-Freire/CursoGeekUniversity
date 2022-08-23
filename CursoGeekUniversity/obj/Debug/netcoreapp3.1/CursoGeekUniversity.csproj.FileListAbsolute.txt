@@ -152,3 +152,9 @@ D:\programs\CursoGeekUniversity\CursoGeekUniversity\obj\Debug\netcoreapp3.1\Razo
 D:\programs\CursoGeekUniversity\CursoGeekUniversity\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Index.cshtml.g.cs
 D:\programs\CursoGeekUniversity\CursoGeekUniversity\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Create.cshtml.g.cs
 D:\programs\CursoGeekUniversity\CursoGeekUniversity\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_mensagemPartial.cshtml.g.cs
+D:\programs\CursoGeekUniversity\CursoGeekUniversity\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\programs\CursoGeekUniversity\CursoGeekUniversity\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\programs\CursoGeekUniversity\CursoGeekUniversity\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\programs\CursoGeekUniversity\CursoGeekUniversity\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\programs\CursoGeekUniversity\CursoGeekUniversity\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\programs\CursoGeekUniversity\CursoGeekUniversity\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll

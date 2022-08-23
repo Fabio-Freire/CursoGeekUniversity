@@ -4,12 +4,20 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using AutoMapper;
 using System.Threading.Tasks;
+using CursoGeekUniversity.Models.ModeloDados;
 
 namespace CursoGeekUniversity.Controllers
 {
     public class ClienteController : BaseController
     {
+        private readonly IMapper _mapper;
+
+        public ClienteController(IMapper mapper)
+        {
+            _mapper = mapper;
+        }
         public IActionResult Index()
         {
             List<ClienteViewModel> listCliente = new List<ClienteViewModel>()
@@ -22,7 +30,12 @@ namespace CursoGeekUniversity.Controllers
 
         public IActionResult Create()
         {
-            return View();
+            var cliente = new ClienteModel() 
+            { CPF = "1", Endereço = "a", Id = "1", Nome = "Carlos", NumeroCartaoCredito = "1", Telefone = "1" };
+
+            var clienteVM = _mapper.Map<ClienteViewModel>(cliente);
+
+            return View(clienteVM);
         }
 
         [HttpPost]

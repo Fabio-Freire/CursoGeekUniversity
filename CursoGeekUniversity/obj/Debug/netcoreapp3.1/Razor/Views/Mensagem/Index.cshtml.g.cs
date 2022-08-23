@@ -27,7 +27,7 @@ using CursoGeekUniversity.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d95cb2ba429d1784af198a3db3bf2bed1ca9b4fc", @"/Views/Mensagem/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cd3ca894702d98ba3f99f29453aa0634df189e07", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d8ccb03c1bbd7fd4c5a1d343478d56ae40bdb8e8", @"/Views/_ViewImports.cshtml")]
     public class Views_Mensagem_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
