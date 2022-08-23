@@ -1,0 +1,54 @@
+﻿@model IEnumerable<CursoGeekUniversity.Models.ClienteViewModel>
+
+@{
+    ViewData["Title"] = "Lista de Clientes";
+    int cont = 0;
+}
+
+<h1>Lista de Clientes</h1>
+
+<p>
+    <a asp-action="Create">Criar Cliente</a>
+</p>
+
+<partial name="_mensagemPartial" />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Indice</th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereço)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+    cont++;
+        <tr>
+            <td>@cont</td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Endereço)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Detalhes", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Excluir", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
